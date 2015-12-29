@@ -1,0 +1,153 @@
+@media screen and (max-width: 1280px) {
+	#main {
+		min-height: 600px;
+		
+  
+	}
+	.hero-head {
+		text-align: center;
+	}
+	.hero-head .logo {
+		margin-top: 16%;
+	}
+	
+	.paycrave-img{
+	 text-align: center;
+	 }
+	.paycrave-img img{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	}
+	.arrow {
+		width:25px;
+		margin-top: 2.7%;
+	}
+}
+
+@media screen and (max-width: 1126px) {
+	.arrow {
+	margin-top: 3.0%;
+	}
+	.project-desc {
+		padding: 0 40px;
+	}
+	.project-header nav ul li{
+	padding-top:.195%;
+}
+
+	#services #print {
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+
+	.arrow {
+		margin-top: 3.7%;
+	}
+	.project-header nav ul li{
+	padding-top:1%;
+}
+
+}
+
+@media screen and (max-width: 704px) {
+	#about-block .section-head{
+		margin-top: 60px;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 480px) {
+	#main {
+		min-height: 400px;
+		background: url(../img/masthead-sm.png) no-repeat center center; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+	#bottom-arrow {
+	 	display: none;
+	}
+	.section-head {
+		width: 80%;
+	}
+	.hero-head .logo {
+		width: 30%;
+		margin-top: 35%;
+	}
+	.hero-head h1 {
+		font-size: 2em;
+	}
+	.hero-head #bottom-arrow {
+ 		position: absolute;
+   		bottom: 5%;
+   		left: 50%;
+   		width: 43px;
+   		height: 30px;
+   		margin-top: -21px; /* Half the height */
+   		margin-left: -15px; /* Half the width */
+	}
+	#main nav ul li{
+		margin: 6% 5% 10% 5%;
+		padding-top:0;
+	}
+	#main nav ul li img{
+		width: 58px;
+	}
+	
+	#about .section-head {
+	margin-top:40px;
+	text-align: center;
+	}
+	.project-header {
+		margin-bottom: 60px;
+	}
+	.project-box,
+	.project-box .desc {
+	height: 280px;
+	}
+	.section-head {
+		margin-bottom: 60px;
+		padding: 0 10px;
+	}
+	.section-head h3 {
+		font-size: 2.5em;
+		letter-spacing: .1em;
+	}
+	.section-content p {
+		padding: 20px 10px 0 10px ;
+	}
+	.block {
+		padding: 60px 0;
+	}
+	.project-header nav ul li{
+		margin: 4% 0 .6% 0;
+	}
+
+	.project-header p.nav-name {
+		font-size: 10px;
+	}
+	
+	.arrow {
+		width:18px;
+		margin-top: 4.3%;
+	}
+	.section-head {
+		width: 100%;
+	}
+	.project-desc {
+		padding: 0 10px;
+	}
+
+	footer .logo{
+		width: 50px;
+	}
+	.project-box .desc .project-name {
+	padding-top: 100px;
+	}
+}
+                                                   
+                            
+                            
+                            
