@@ -60,7 +60,7 @@
 @media screen and (max-width: 480px) {
 	#main {
 		min-height: 400px;
-		background: url(../img/masthead-sm.png) no-repeat center center; 
+		/*background: url(/img/masthead-sm.png) no-repeat center center; */
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -147,7 +147,3 @@
 	padding-top: 100px;
 	}
 }
-                                                   
-                            
-                            
-                            
