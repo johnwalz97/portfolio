@@ -16,12 +16,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/resume', function(req, res) {
-    res.writeHead(200, {
-      'Content-Type': 'application/pdf',
-      'Content-Disposition': 'attachment; filename=resume.pdf',
-      'Content-Length': data.length
-    });
-    res.end(pdfData);
+    res.sendfile('./resume.pdf');
 })
 
 //Server
