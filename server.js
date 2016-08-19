@@ -15,6 +15,15 @@ app.get('/', function(req, res) {
     res.render("index");
 })
 
+app.get('/resume', function(req, res) {
+    res.writeHead(200, {
+      'Content-Type': 'application/pdf',
+      'Content-Disposition': 'attachment; filename=resume.pdf',
+      'Content-Length': data.length
+    });
+    res.end(pdfData);
+})
+
 //Server
 app.listen(80, function() {
     console.log("listening on port 80");
